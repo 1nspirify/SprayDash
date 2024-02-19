@@ -25,7 +25,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             _yPosition += _speed * Time.deltaTime;
-            /*Clip.Play();*/
+            Clip.Play();
         }
         else
         {
